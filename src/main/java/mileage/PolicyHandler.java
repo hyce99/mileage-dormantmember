@@ -28,17 +28,22 @@ public class PolicyHandler{
         if(managerMsgSent.isMe()){
             System.out.println("##### listener UpdateDormantStatus : " + managerMsgSent.toJson());
 
-            Optional<DormantMember> memberOptional = DormantMemberRepository.findById(managerMsgSent.getMemberId());
-            DormantMember DormantMember = memberOptional.get();
+            Optional<DormantMember> memberOptional = DormantMemberRepository.findByMemberId(managerMsgSent.getMemberId());
+            DormantMember dormantMember;
+            if (memberOptional.isPresent()) {
+                dormantMember = memberOptional.get();
+            } else {
+                dormantMember = new DormantMember();
+            }
 
             if("SUCCESS".equals(managerMsgSent.getMessageStatus())){
-                DormantMember.setMemberStatus("DORMANT");
+                dormantMember.setMemberStatus("DORMANT");
             }
             else {
-                DormantMember.setMemberStatus("DESTRUCTION");
+                dormantMember.setMemberStatus("DESTRUCTION");
             }
 
-            DormantMemberRepository.save(DormantMember);
+            DormantMemberRepository.save(dormantMember);
 
 
         }
