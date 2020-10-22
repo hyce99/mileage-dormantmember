@@ -1,0 +1,15 @@
+mileage\config\kafka\KafkaProcessor.class
+mileage\DormantMemberInserted.class
+mileage\DormantMember.class
+mileage\AbstractEvent$1.class
+mileage\external\MemberService.class
+mileage\AbstractEvent.class
+mileage\DormantMemberController.class
+mileage\external\Member.class
+mileage\DormantMemberRepository.class
+mileage\DormantMemberChanged.class
+mileage\DormantStatusUpdated.class
+mileage\PolicyHandler.class
+mileage\DormantMemberCleared.class
+mileage\ManagerMsgSent.class
+mileage\DormantmemberApplication.class

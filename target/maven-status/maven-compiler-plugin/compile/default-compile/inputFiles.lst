@@ -1,0 +1,14 @@
+C:\mileage\dormantmember\src\main\java\mileage\PolicyHandler.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantMember.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantMemberRepository.java
+C:\mileage\dormantmember\src\main\java\mileage\AbstractEvent.java
+C:\mileage\dormantmember\src\main\java\mileage\config\kafka\KafkaProcessor.java
+C:\mileage\dormantmember\src\main\java\mileage\external\Member.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantMemberChanged.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantmemberApplication.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantStatusUpdated.java
+C:\mileage\dormantmember\src\main\java\mileage\external\MemberService.java
+C:\mileage\dormantmember\src\main\java\mileage\ManagerMsgSent.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantMemberCleared.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantMemberInserted.java
+C:\mileage\dormantmember\src\main\java\mileage\DormantMemberController.java
